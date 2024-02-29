@@ -21,15 +21,15 @@ class MainActivity : AppCompatActivity() {
         passwordInput = findViewById(R.id.password_input)
         loginBtn = findViewById(R.id.login_btn)
 
+        //Event Handler
         loginBtn.setOnClickListener()
         {
             val username = usernameInput.text.toString()
             val password = passwordInput.text.toString()
             Log.i("Test Credentials", "Username: $username and Password: $password")
 
-
-
         }
+
 
     }
 }
